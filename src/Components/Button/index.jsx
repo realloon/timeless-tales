@@ -15,6 +15,7 @@ export default function Button({
 
   return (
     <button
+      type="button"
       onClick={event => handleClick(event)}
       className={`btn ${type}-btn`}
       {...rest}

@@ -8,7 +8,10 @@ import { useCallback, useEffect, useRef, useState } from 'react'
 // 样式
 import './index.css'
 
-export default function Header({ title = 'Page Title', toggleAside }) {
+export default function Header({
+  title = 'Page Title',
+  toggleAside = () => {},
+}) {
   const [isSticky, setIsSticky] = useState(false)
   const prevIsStickyRef = useRef(false)
 
@@ -29,17 +32,13 @@ export default function Header({ title = 'Page Title', toggleAside }) {
     }
   }, [handleScroll])
 
-  const handleClick = () => {
-    toggleAside()
-  }
-
   return (
     <header className={`header ${isSticky ? 'sticky' : ''}`}>
       <Button
-        handleClick={handleClick}
         type="icon"
         content="侧边栏"
         img={aside}
+        handleClick={toggleAside}
       ></Button>
       <h1>{title}</h1>
       <nav>

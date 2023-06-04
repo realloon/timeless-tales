@@ -1,0 +1,16 @@
+.footer {
+  background-color: #fff;
+  padding: 1rem;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.copyright h2 {
+  font-size: 1rem;
+  margin: 0;
+}
