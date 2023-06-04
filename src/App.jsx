@@ -1,8 +1,6 @@
 import Header from './Components/Header'
 import Aside from 'Components/Aside'
 import Footer from 'Components/Footer'
-// import Input from 'Components/Input'
-import EdgePanel from 'Components/EdgePanel'
 import Button from 'Components/Button'
 import ConfigPanel from 'Components/ConfigPanel'
 
@@ -25,9 +23,6 @@ export default function App() {
 
         <main>
           <Button content={'按钮'} type="text"></Button>
-
-          <EdgePanel></EdgePanel>
-
           <ConfigPanel></ConfigPanel>
         </main>
       </div>
