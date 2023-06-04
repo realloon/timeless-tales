@@ -11,6 +11,7 @@ import './index.css'
 export default function Header({
   title = 'Page Title',
   toggleAside = () => {},
+  toggleConfigPanel = () => {},
 }) {
   const [isSticky, setIsSticky] = useState(false)
   const prevIsStickyRef = useRef(false)
@@ -42,7 +43,12 @@ export default function Header({
       ></Button>
       <h1>{title}</h1>
       <nav>
-        <Button type="icon" content="设置" img={set}></Button>
+        <Button
+          type="icon"
+          content="设置"
+          img={set}
+          handleClick={toggleConfigPanel}
+        ></Button>
       </nav>
     </header>
   )
