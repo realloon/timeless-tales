@@ -1,0 +1,29 @@
+.aside {
+  position: sticky;
+  top: 48px;
+  /*  */
+  box-sizing: border-box;
+  height: calc(100vh - 48px);
+  width: 240px;
+  background-color: #fafafa;
+  overflow-x: hidden;
+  transition: width 0.6s;
+  /* box-shadow: 2px 0 4px rgba(0, 0, 0, 0.08); */
+  /*  */
+  margin-top: -32px;
+}
+.aside.collapsed {
+  width: 0;
+}
+
+.aside .container {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 240px;
+  padding: 16px;
+}
+
+.aside h2 {
+  margin: 0;
+}

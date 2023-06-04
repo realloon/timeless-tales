@@ -1,0 +1,56 @@
+.config-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  /*  */
+  padding: 16px;
+  width: fit-content;
+  background-color: #efefef;
+  border-radius: 8px;
+}
+
+.config-panel h2 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.config-panel fieldset {
+  box-sizing: border-box;
+  width: 100%;
+  /*  */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.config-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+/*  */
+
+/* 文字显示区域 */
+.config-item-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.config-item-wrapper h3,
+.config-item-wrapper p {
+  font-size: 1rem;
+  margin: 0;
+}
+.config-item-wrapper h3 {
+  font-weight: normal;
+}
+.config-item-wrapper h3 label {
+  font-family: var(--monospace);
+  font-weight: bold;
+}
+.config-item-wrapper p {
+  font-size: 0.85rem;
+}

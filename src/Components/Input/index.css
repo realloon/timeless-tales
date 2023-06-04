@@ -1,0 +1,10 @@
+.input {
+  font-family: var(--monospace);
+  font-size: 0.8rem;
+  padding: 0.6rem 0.8rem;
+  background-color: #fefefe;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px 0 #00000008;
+}

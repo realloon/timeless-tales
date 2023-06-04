@@ -1,0 +1,31 @@
+{
+  "general": {
+    "language": {
+      "value": "zh",
+      "default": "zh",
+      "description": "页面显示的语言设置，用于控制显示的文本、标签等"
+    },
+    "love": {
+      "value": false,
+      "default": true,
+      "description": "是否开启页面中的爱心特效"
+    }
+  },
+  "appearance": {
+    "color": {
+      "value": "#FFFFFF",
+      "default": "#FFFFFF",
+      "description": "页面的背景色设置，用于控制页面的整体风格"
+    },
+    "font-family": {
+      "value": "LXGW WenKai",
+      "default": "LXGW WenKai",
+      "description": "页面中使用的字体设置，用于控制页面字体的显示效果"
+    },
+    "font-size": {
+      "value": 16,
+      "default": 16,
+      "description": "页面中字体的大小设置，用于控制页面字体的大小"
+    }
+  }
+}

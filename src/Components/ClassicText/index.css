@@ -1,0 +1,39 @@
+.classic-text {
+  max-width: 100%;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.classic-text section {
+  background: #efefef;
+  padding: 16px 20px;
+  border-radius: 8px;
+  /* 行宽限制 */
+  width: 22em;
+}
+.classic-text section.center {
+  text-align: center;
+}
+
+.classic-text h3 {
+  font-size: 1rem;
+  margin: 0 0 8px 0;
+}
+.classic-text h3.title {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.classic-text address {
+  text-align: center;
+  font-size: 0.9rem;
+  font-style: normal;
+  margin: 0 0 4px 0;
+}
+
+.classic-text p {
+  line-height: 1.5;
+  margin: 0;
+}
