@@ -54,7 +54,6 @@ export default function ConfigPanel() {
 
                 <Input
                   name={key}
-                  id={key}
                   value={value}
                   title={description}
                   onChange={event => handleChange(section, key, event)}
