@@ -3,14 +3,23 @@
   padding: 1rem;
 }
 
-.copyright {
+.footer .about {
+  display: flex;
+  justify-content: center;
+}
+
+.footer .about nav {
+  width: fit-content;
+}
+
+.footer .copyright {
   display: flex;
   justify-content: center;
   align-items: baseline;
   gap: 1rem;
 }
 
-.copyright h2 {
+.footer .copyright h2 {
   font-size: 1rem;
   margin: 0;
 }
